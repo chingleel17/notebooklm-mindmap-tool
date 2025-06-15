@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "NotebookLM Mindmap Tool",
+    "version": "0.0.2",
+    "description": "自動展開 NotebookLM 心智圖所有節點並下載資訊的工具",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://notebooklm.google.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://notebooklm.google.com/*"
+            ],
+            "js": [
+                "dist/main.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "dist/popup.html",
+        "default_title": "NotebookLM Mindmap Tool"
+    }
+}
