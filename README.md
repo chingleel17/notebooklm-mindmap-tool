@@ -1,11 +1,10 @@
 # notebooklm-mindmap-tool
 
-這個專案是一個用於 notebookLM 的心智圖工具 Google Chrome 擴充套件，旨在提供自動展開所有節點的功能以及下載心智圖資料的能力。
+這個專案是一個用於 notebookLM 的心智圖工具 Google Chrome 擴充套件，旨在提供自動展開所有節點的功能能力。
 
 ## 特色
 
 - 一鍵展開 notebookLM 心智圖的所有節點
-- 支援下載心智圖資料
 - 介面簡單易用，無需額外設定
 
 ## 目錄結構

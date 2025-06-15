@@ -24,3 +24,9 @@ Thumbs.db
 .env
 *.env
 src/version.json
+
+# zip files
+zip/
+
+#docs
+docs/
